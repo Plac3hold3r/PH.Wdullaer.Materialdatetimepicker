@@ -39,10 +39,10 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Additions\Com.Wdullaer.Materialdatetimepicker\Time\Timepoint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Additions\AboutAdditions.txt" />
     <LibraryProjectZip Include="Jars\materialdatetimepicker-3.3.0.aar" />
   </ItemGroup>
   <ItemGroup>
