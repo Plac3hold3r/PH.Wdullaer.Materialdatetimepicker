@@ -98,7 +98,71 @@
     <LibraryProjectZip Include="Jars\materialdatetimepicker-3.2.2.aar" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\META-INF\MANIFEST.MF" />
+    <None Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\package-list" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\allclasses-frame.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\allclasses-noframe.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\AccessibleLinearLayout.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\AccessibleTextView.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\AccessibleDateAnimator.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\DatePickerController.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\DatePickerDialog.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\DatePickerDialog.OnDateChangedListener.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\DatePickerDialog.OnDateSetListener.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\DatePickerDialog.Version.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\DateRangeLimiter.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\DayPickerView.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\MonthAdapter.CalendarDay.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\MonthAdapter.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\MonthView.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\MonthView.MonthViewTouchHelper.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\MonthView.OnDayClickListener.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\package-frame.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\package-summary.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\package-tree.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\SimpleDayPickerView.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\SimpleMonthAdapter.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\SimpleMonthView.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\TextViewWithCircularIndicator.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\date\YearPickerView.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\GravitySnapHelper.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\GravitySnapHelper.SnapListener.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\HapticFeedbackController.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\package-frame.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\package-summary.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\package-tree.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\time\AmPmCirclesView.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\time\CircleView.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\time\package-frame.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\time\package-summary.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\time\package-tree.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\time\RadialPickerLayout.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\time\RadialPickerLayout.OnValueSelectedListener.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\time\RadialSelectorView.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\time\RadialTextsView.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\time\TimePickerController.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\time\TimePickerDialog.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\time\TimePickerDialog.OnTimeSetListener.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\time\TimePickerDialog.Version.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\time\Timepoint.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\time\Timepoint.TYPE.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\TypefaceHelper.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\Utils.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\com\wdullaer\materialdatetimepicker\VerticalTextView.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\constant-values.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\deprecated-list.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\help-doc.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\index-all.html" />
+    <JavaDocIndex Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\index.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\overview-frame.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\overview-summary.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\overview-tree.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\script.js" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\serialized-form.html" />
+    <Content Include="JavaDocs\materialdatetimepicker-3.2.2-javadoc\stylesheet.css" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
