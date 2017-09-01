@@ -1,79 +1,76 @@
-﻿//using Android.App;
+﻿using Android.App;
 using Android.OS;
+using Android.Support.Design.Widget;
+using Android.Support.V13.App;
+using Android.Support.V4.View;
 using Android.Support.V7.App;
-using Android.Widget;
-using Com.Wdullaer.Materialdatetimepicker.Date;
-using Java.Util;
+using Android.Support.V7.Widget;
 
 namespace TestApp.Views
 {
-    [Android.App.Activity(
-        Label = "TestApp",
+    [Activity(
+        Label = "@string/app_name",
         MainLauncher = true,
         Theme = "@style/AppTheme")]
-    public class MainActivity : AppCompatActivity, DatePickerDialog.IOnDateSetListener
+    public class MainActivity : AppCompatActivity
     {
-        public void OnDateSet(DatePickerDialog p0, int p1, int p2, int p3)
-        {
-            throw new System.NotImplementedException();
-        }
+        ViewPager viewPager;
+        PickerAdapter adapter;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
-            // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.Main);
+            SetContentView(Resource.Layout.activity_main);
 
-            var datePicker = FindViewById<Button>(Resource.Id.btn_date_picker);
-            datePicker.Click += DatePicker_Click;
+            adapter = new PickerAdapter(FragmentManager);
+            viewPager = FindViewById<ViewPager>(Resource.Id.pager);
+            viewPager.Adapter = adapter;
+
+            SetSupportActionBar(FindViewById<Toolbar>(Resource.Id.toolbar));
+            TabLayout tabLayout = FindViewById<TabLayout>(Resource.Id.tabs);
+            tabLayout.SetupWithViewPager(viewPager);
+            for (int i = 0; i < adapter.Count; i++)
+                tabLayout.GetTabAt(i).SetText(adapter.GetTitle(i));
         }
 
-        private void DatePicker_Click(object sender, System.EventArgs e)
+        private class PickerAdapter : FragmentPagerAdapter
         {
-            Calendar now = Calendar.Instance;
-            DatePickerDialog dpd = new DatePickerDialog();
-            dpd.Initialize(
-                    this,
-                    now.Get(CalendarField.Year),
-                    now.Get(CalendarField.Month),
-                    now.Get(CalendarField.DayOfMonth)
-            );
-            //dpd.setThemeDark(modeDarkDate.isChecked());
-            //dpd.vibrate(vibrateDate.isChecked());
-            //dpd.dismissOnPause(dismissDate.isChecked());
-            // dpd.showYearPickerFirst(showYearFirst.isChecked());
-            //dpd.setVersion(showVersion2.isChecked() ? DatePickerDialog.Version.VERSION_2 : DatePickerDialog.Version.VERSION_1);
-            //if (modeCustomAccentDate.isChecked())
-            //{
-            //    dpd.setAccentColor(Color.parseColor("#9C27B0"));
-            //}
-            //if (titleDate.isChecked())
-            //{
-            //    dpd.setTitle("DatePicker Title");
-            //}
-            //if (highlightDays.isChecked())
-            //{
-            //    Calendar date1 = Calendar.getInstance();
-            //    Calendar date2 = Calendar.getInstance();
-            //    date2.add(Calendar.WEEK_OF_MONTH, -1);
-            //    Calendar date3 = Calendar.getInstance();
-            //    date3.add(Calendar.WEEK_OF_MONTH, 1);
-            //    Calendar[] days = { date1, date2, date3 };
-            //    dpd.setHighlightedDays(days);
-            //}
-            //if (limitSelectableDays.isChecked())
-            //{
-            //    Calendar[] days = new Calendar[13];
-            //    for (int i = -6; i < 7; i++)
-            //    {
-            //        Calendar day = Calendar.getInstance();
-            //        day.add(Calendar.DAY_OF_MONTH, i * 2);
-            //        days[i + 6] = day;
-            //    }
-            //    dpd.setSelectableDays(days);
-            //}
-            dpd.Show(FragmentManager, "Datepickerdialog");
+            private static int numberPages = 2;
+            Fragment timePickerFragment;
+            Fragment datePickerFragment;
+
+            public PickerAdapter(FragmentManager fragmentManager) : base(fragmentManager)
+            {
+                timePickerFragment = new TimePickerFragment();
+                datePickerFragment = new DatePickerFragment();
+            }
+
+            public override int Count => numberPages;
+
+            public override Fragment GetItem(int position)
+            {
+                switch (position)
+                {
+                    case 0:
+                        return timePickerFragment;
+                    case 1:
+                    default:
+                        return datePickerFragment;
+                }
+            }
+
+            public int GetTitle(int position)
+            {
+                switch (position)
+                {
+                    case 0:
+                        return Resource.String.tab_title_time;
+                    case 1:
+                    default:
+                        return Resource.String.tab_title_date;
+                }
+            }
         }
     }
 }
