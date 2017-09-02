@@ -51,9 +51,6 @@
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Binding">
-      <HintPath>..\..\src\Binding\bin\Debug\Binding.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -116,7 +113,12 @@
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Binding\Binding.csproj">
+      <Project>{fafa3b66-7cc8-41ec-9eca-740db6430123}</Project>
+      <Name>Binding</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\styles.xml">
       <SubType>Designer</SubType>
