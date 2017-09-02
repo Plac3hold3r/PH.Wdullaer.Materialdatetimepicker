@@ -15,3 +15,6 @@ Install-Package PH.Wdullaer.Materialdatetimepicker
 -  For Xamarin implementation see the [sample project](/src/SampleApp) in this repo.
 -  For orginal Android project see the [sample](https://github.com/wdullaer/MaterialDateTimePicker/tree/master/sample) and [documentation](https://github.com/wdullaer/MaterialDateTimePicker#material-datetime-picker---select-a-timedate-in-style).
 
+Datepicker            |  Timepicker
+:-------------------------:|:-------------------------:
+![Datepicker](/screenshots/datepicker.png "Datepicker")  |  ![Timepicker](/screenshots/timepicker.png "Timepicker")
