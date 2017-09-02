@@ -2,14 +2,15 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>PH.Wdullaer.Materialdatetimepicker</id>
-    <version>3.2.2.0</version>
+    <version>1.322.0</version>
     <title>Wdullaer Material Datetime Picker for Xamarin.Android</title>
     <authors>Plac3hold3r</authors>
     <owners>Plac3hold3r</owners>
     <licenseUrl>https://github.com/Plac3hold3r/PH.Wdullaer.Materialdatetimepicker/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/Plac3hold3r/PH.Wdullaer.Materialdatetimepicker</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A Xamarin Android binding for Wdullaer Material Datetime Picker. Supports Android 4 (API 15) and up.</description>
+    <description>A Xamarin Android binding for Wdullaer Material Datetime Picker. Supports Android 4 (API 15) and greater. Includes a material design themable timepicker and datepicker</description>
+    <summary>A Xamarin Android binding for Wdullaer Material Datetime Picker.</summary>
     <tags>xamarin, monodroid, C#, xamarin.android, android, material, datepicker, timepicker</tags>
     <dependencies>
       <dependency id="Xamarin.Android.Support.v13" version="25.3.1" />
@@ -19,7 +20,7 @@
   </metadata>
   <files>
     <!-- Android -->
-    <file src="..\src\Binding\bin\Release\MaterialDateTimePicker.dll" target="lib\MonoAndroid40\MaterialDateTimePicker.dll" />
-    <file src="..\src\Binding\bin\Release\MaterialDateTimePicker.pdb" target="lib\MonoAndroid40\MaterialDateTimePicker.pdb" />
+    <file src="..\src\Binding\bin\Release\MaterialDateTimePicker.dll" target="lib\MonoAndroid70\MaterialDateTimePicker.dll" />
+    <file src="..\src\Binding\bin\Release\MaterialDateTimePicker.pdb" target="lib\MonoAndroid70\MaterialDateTimePicker.pdb" />
   </files>
 </package>
