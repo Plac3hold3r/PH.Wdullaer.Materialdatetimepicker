@@ -25,7 +25,6 @@ namespace TestApp.Views
         {
             View view = inflater.Inflate(Resource.Layout.timepicker_layout, container, false);
 
-            // Find our View instances
             timeTextView = view.FindViewById<TextView>(Resource.Id.time_textview);
             Button timeButton = view.FindViewById<Button>(Resource.Id.time_button);
             mode24Hours = view.FindViewById<CheckBox>(Resource.Id.mode_24_hours);
@@ -79,7 +78,7 @@ namespace TestApp.Views
         {
             base.OnResume();
             var tpd = (Materialdatetimepicker.TimePickerDialog)FragmentManager.FindFragmentByTag("Timepickerdialog");
-            if (tpd != null) tpd.SetOnTimeSetListener(this);
+            tpd?.SetOnTimeSetListener(this);
         }
 
         public void OnTimeSet(Materialdatetimepicker.TimePickerDialog view, int hourOfDay, int minute, int second)

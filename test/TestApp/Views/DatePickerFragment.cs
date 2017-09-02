@@ -77,7 +77,7 @@ namespace TestApp.Views
             }
             if (limitSelectableDays.Checked)
             {
-                Calendar[] days = new Calendar[13];
+                var days = new Calendar[13];
                 for (int i = -6; i < 7; i++)
                 {
                     Calendar day = Calendar.Instance;
@@ -93,8 +93,7 @@ namespace TestApp.Views
         {
             base.OnResume();
             var dpd = (Materialdatetimepicker.DatePickerDialog)FragmentManager.FindFragmentByTag("Datepickerdialog");
-            if (dpd != null)
-                dpd.SetOnDateSetListener(this);
+            dpd?.SetOnDateSetListener(this);
         }
 
         public void OnDateSet(Materialdatetimepicker.DatePickerDialog view, int year, int monthOfYear, int dayOfMonth)
