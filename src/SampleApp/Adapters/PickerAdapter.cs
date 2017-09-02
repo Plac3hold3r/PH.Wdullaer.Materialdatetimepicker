@@ -1,8 +1,8 @@
 ﻿using Android.App;
 using Android.Support.V13.App;
-using TestApp.Views;
+using SampleApp.Views;
 
-namespace TestApp.Adapters
+namespace SampleApp.Adapters
 {
     internal class PickerAdapter : FragmentPagerAdapter
     {

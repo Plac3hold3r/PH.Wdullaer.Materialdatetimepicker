@@ -6,7 +6,7 @@ using Android.Widget;
 using Java.Util;
 using Materialdatetimepicker = Com.Wdullaer.Materialdatetimepicker.Time;
 
-namespace TestApp.Views
+namespace SampleApp.Views
 {
     public class TimePickerFragment : Fragment, Materialdatetimepicker.TimePickerDialog.IOnTimeSetListener
     {

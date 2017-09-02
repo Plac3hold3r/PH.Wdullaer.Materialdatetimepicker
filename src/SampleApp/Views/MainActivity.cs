@@ -4,9 +4,9 @@ using Android.Support.Design.Widget;
 using Android.Support.V4.View;
 using Android.Support.V7.App;
 using Android.Support.V7.Widget;
-using TestApp.Adapters;
+using SampleApp.Adapters;
 
-namespace TestApp.Views
+namespace SampleApp.Views
 {
     [Activity(
         MainLauncher = true,
