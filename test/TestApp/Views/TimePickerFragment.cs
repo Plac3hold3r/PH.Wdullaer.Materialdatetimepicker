@@ -1,5 +1,4 @@
-﻿
-using Android.App;
+﻿using Android.App;
 using Android.Graphics;
 using Android.OS;
 using Android.Views;
@@ -83,13 +82,12 @@ namespace TestApp.Views
             if (tpd != null) tpd.SetOnTimeSetListener(this);
         }
 
-        public void OnTimeSet(Materialdatetimepicker.TimePickerDialog p0, int p1, int p2, int p3)
+        public void OnTimeSet(Materialdatetimepicker.TimePickerDialog view, int hourOfDay, int minute, int second)
         {
-            string hourString = p1 < 10 ? "0" + p1 : "" + p1;
-            string minuteString = p2 < 10 ? "0" + p2 : "" + p2;
-            string secondString = p3 < 10 ? "0" + p3 : "" + p3;
-            string time = "You picked the following time: " + hourString + "h" + minuteString + "m" + secondString + "s";
-            timeTextView.Text = time;
+            string hourString = hourOfDay < 10 ? "0" + hourOfDay : "" + hourOfDay;
+            string minuteString = minute < 10 ? "0" + minute : "" + minute;
+            string secondString = second < 10 ? "0" + second : "" + second;
+            timeTextView.Text = "You picked the following time: " + hourString + "h" + minuteString + "m" + secondString + "s";
         }
     }
 }

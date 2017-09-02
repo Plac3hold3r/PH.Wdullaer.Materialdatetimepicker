@@ -25,7 +25,6 @@ namespace TestApp.Views
         {
             View view = inflater.Inflate(Resource.Layout.datepicker_layout, container, false);
 
-            // Find our View instances
             dateTextView = view.FindViewById<TextView>(Resource.Id.date_textview);
             Button dateButton = view.FindViewById<Button>(Resource.Id.date_button);
             modeDarkDate = view.FindViewById<CheckBox>(Resource.Id.mode_dark_date);
@@ -94,13 +93,13 @@ namespace TestApp.Views
         {
             base.OnResume();
             var dpd = (Materialdatetimepicker.DatePickerDialog)FragmentManager.FindFragmentByTag("Datepickerdialog");
-            if (dpd != null) dpd.SetOnDateSetListener(this);
+            if (dpd != null)
+                dpd.SetOnDateSetListener(this);
         }
 
-        public void OnDateSet(Materialdatetimepicker.DatePickerDialog p0, int p1, int p2, int p3)
+        public void OnDateSet(Materialdatetimepicker.DatePickerDialog view, int year, int monthOfYear, int dayOfMonth)
         {
-            string date = "You picked the following date: " + p3 + "/" + (++p2) + "/" + p1;
-            dateTextView.Text = date;
+            dateTextView.Text = "You picked the following date: " + dayOfMonth + "/" + (++monthOfYear) + "/" + year;
         }
     }
 }
