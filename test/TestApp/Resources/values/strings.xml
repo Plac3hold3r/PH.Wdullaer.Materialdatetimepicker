@@ -28,8 +28,5 @@
   <string name="tab_title_time">Time</string>
   <string name="tab_title_date">Date</string>
   <string name="tab_title_datetime">Date+Time</string>
-
-  <!-- TODO: Remove or change this placeholder text -->
-  <string name="hello_blank_fragment">Hello blank fragment</string>
   
 </resources>

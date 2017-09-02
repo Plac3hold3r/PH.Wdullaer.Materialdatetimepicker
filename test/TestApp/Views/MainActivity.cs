@@ -9,8 +9,9 @@ using TestApp.Adapters;
 namespace TestApp.Views
 {
     [Activity(
-        Label = "@string/app_name",
         MainLauncher = true,
+        Label = "@string/app_name",
+        Icon = "@mipmap/ic_launcher",
         Theme = "@style/AppTheme")]
     public class MainActivity : AppCompatActivity
     {
