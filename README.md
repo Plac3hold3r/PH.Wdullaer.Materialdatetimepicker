@@ -1,10 +1,12 @@
 # PH.Wdullaer.Materialdatetimepicker
 
-[![NuGet](https://img.shields.io/nuget/v/PH.Wdullaer.Materialdatetimepicker.svg?style=flat-square)]()
+[![NuGet](https://img.shields.io/nuget/v/PH.Wdullaer.Materialdatetimepicker.svg?style=flat-square)](https://www.nuget.org/packages/PH.Wdullaer.Materialdatetimepicker/)
 
 A Xamarin Android binding for [Wdullaer Material Datetime Picker](https://github.com/wdullaer/MaterialDateTimePicker). Supports Android 4 (API 15) and greater. Includes a material design themable timepicker and datepicker
 
 ## Nuget Package
+
+The latest stable binding package can be found on [Nuget](https://www.nuget.org/packages/PH.Wdullaer.Materialdatetimepicker/), based on version `3.2.2` of Wdullaer Material Datetime Picker.
 
 ```text
 Install-Package PH.Wdullaer.Materialdatetimepicker 
@@ -15,6 +17,14 @@ Install-Package PH.Wdullaer.Materialdatetimepicker
 -  For Xamarin implementation see the [sample project](/src/SampleApp) in this repo.
 -  For orginal Android project see the [sample](https://github.com/wdullaer/MaterialDateTimePicker/tree/master/sample) and [documentation](https://github.com/wdullaer/MaterialDateTimePicker#material-datetime-picker---select-a-timedate-in-style).
 
+Version 1
+
 Datepicker            |  Timepicker
 :-------------------------:|:-------------------------:
-![Datepicker](/screenshots/datepicker.png "Datepicker")  |  ![Timepicker](/screenshots/timepicker.png "Timepicker")
+![Datepicker](/screenshots/version1_datepicker.png "Datepicker")  |  ![Timepicker](/screenshots/version1_timepicker.png "Timepicker")
+
+Version 2
+
+Datepicker            |  Timepicker
+:-------------------------:|:-------------------------:
+![Datepicker](/screenshots/version2_datepicker.png "Datepicker")  |  ![Timepicker](/screenshots/version2_timepicker.png "Timepicker")
