@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>PH.Wdullaer.Materialdatetimepicker</id>
-    <version>2.330.0-alpha</version>
+    <version>2.330.1-alpha</version>
     <title>Wdullaer Material Datetime Picker for Xamarin.Android</title>
     <authors>Plac3hold3r</authors>
     <owners>Plac3hold3r</owners>
