@@ -4,11 +4,11 @@ using Android.OS;
 using Android.Views;
 using Android.Widget;
 using Java.Util;
-using Materialdatetimepicker = Com.Wdullaer.Materialdatetimepicker.Date;
+using MaterialdDatePicker = MaterialDateTimePicker.Date;
 
 namespace SampleApp.Views
 {
-    public class DatePickerFragment : Fragment, Materialdatetimepicker.DatePickerDialog.IOnDateSetListener
+    public class DatePickerFragment : Fragment, MaterialdDatePicker.DatePickerDialog.IOnDateSetListener
     {
         private TextView dateTextView;
         private CheckBox modeDarkDate;
@@ -45,7 +45,7 @@ namespace SampleApp.Views
         private void DateButton_Click(object sender, System.EventArgs e)
         {
             Calendar now = Calendar.Instance;
-            var dpd = new Materialdatetimepicker.DatePickerDialog();
+            var dpd = new MaterialdDatePicker.DatePickerDialog();
             dpd.Initialize(
                     this,
                     now.Get(CalendarField.Year),
@@ -56,7 +56,7 @@ namespace SampleApp.Views
             dpd.Vibrate(vibrateDate.Checked);
             dpd.DismissOnPause(dismissDate.Checked);
             dpd.ShowYearPickerFirst(showYearFirst.Checked);
-            dpd.SetVersion(showVersion2.Checked ? Materialdatetimepicker.DatePickerDialog.Version.Version2 : Materialdatetimepicker.DatePickerDialog.Version.Version1);
+            dpd.SetVersion(showVersion2.Checked ? MaterialdDatePicker.DatePickerDialog.Version.Version2 : MaterialdDatePicker.DatePickerDialog.Version.Version1);
             if (modeCustomAccentDate.Checked)
             {
                 dpd.AccentColor = Color.ParseColor("#9C27B0");
@@ -92,11 +92,11 @@ namespace SampleApp.Views
         public override void OnResume()
         {
             base.OnResume();
-            var dpd = (Materialdatetimepicker.DatePickerDialog)FragmentManager.FindFragmentByTag("Datepickerdialog");
+            var dpd = (MaterialdDatePicker.DatePickerDialog)FragmentManager.FindFragmentByTag("Datepickerdialog");
             dpd?.SetOnDateSetListener(this);
         }
 
-        public void OnDateSet(Materialdatetimepicker.DatePickerDialog view, int year, int monthOfYear, int dayOfMonth)
+        public void OnDateSet(MaterialdDatePicker.DatePickerDialog view, int year, int monthOfYear, int dayOfMonth)
         {
             dateTextView.Text = "You picked the following date: " + dayOfMonth + "/" + (++monthOfYear) + "/" + year;
         }

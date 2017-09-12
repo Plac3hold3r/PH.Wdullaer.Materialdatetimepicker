@@ -29,4 +29,9 @@
         name="visibility">public</attr>
   <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.time']/class[@name='TimePickerDialog.Version']"
         name="managedName">AppVersion</attr>
+
+  <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker']" name="managedName">MaterialDateTimePicker</attr>
+  <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.time']" name="managedName">MaterialDateTimePicker.Time</attr>
+  <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.date']" name="managedName">MaterialDateTimePicker.Date</attr>
+
 </metadata>

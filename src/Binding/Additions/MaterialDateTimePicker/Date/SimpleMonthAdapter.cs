@@ -1,6 +1,6 @@
 ﻿using Android.Support.V7.Widget;
 
-namespace Com.Wdullaer.Materialdatetimepicker.Date
+namespace MaterialDateTimePicker.Date
 {
     public partial class SimpleMonthAdapter
     {

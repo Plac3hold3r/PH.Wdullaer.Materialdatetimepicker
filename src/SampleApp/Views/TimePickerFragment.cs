@@ -4,11 +4,11 @@ using Android.OS;
 using Android.Views;
 using Android.Widget;
 using Java.Util;
-using Materialdatetimepicker = Com.Wdullaer.Materialdatetimepicker.Time;
+using MaterialTimePicker = MaterialDateTimePicker.Time;
 
 namespace SampleApp.Views
 {
-    public class TimePickerFragment : Fragment, Materialdatetimepicker.TimePickerDialog.IOnTimeSetListener
+    public class TimePickerFragment : Fragment, MaterialTimePicker.TimePickerDialog.IOnTimeSetListener
     {
         private TextView timeTextView;
         private CheckBox mode24Hours;
@@ -45,7 +45,7 @@ namespace SampleApp.Views
         private void TimeButton_Click(object sender, System.EventArgs e)
         {
             Calendar now = Calendar.Instance;
-            var tpd = new Materialdatetimepicker.TimePickerDialog();
+            var tpd = new MaterialTimePicker.TimePickerDialog();
             tpd.Initialize(
                     this,
                     now.Get(CalendarField.HourOfDay),
@@ -57,7 +57,7 @@ namespace SampleApp.Views
             tpd.Vibrate(vibrateTime.Checked);
             tpd.DismissOnPause(dismissTime.Checked);
             tpd.EnableSeconds(enableSeconds.Checked);
-            tpd.Version = showVersion2.Checked ? Materialdatetimepicker.TimePickerDialog.AppVersion.Version2 : Materialdatetimepicker.TimePickerDialog.AppVersion.Version1;
+            tpd.Version = showVersion2.Checked ? MaterialTimePicker.TimePickerDialog.AppVersion.Version2 : MaterialTimePicker.TimePickerDialog.AppVersion.Version1;
             if (modeCustomAccentTime.Checked)
             {
                 tpd.AccentColor = Color.ParseColor("#9C27B0");
@@ -77,11 +77,11 @@ namespace SampleApp.Views
         public override void OnResume()
         {
             base.OnResume();
-            var tpd = (Materialdatetimepicker.TimePickerDialog)FragmentManager.FindFragmentByTag("Timepickerdialog");
+            var tpd = (MaterialTimePicker.TimePickerDialog)FragmentManager.FindFragmentByTag("Timepickerdialog");
             tpd?.SetOnTimeSetListener(this);
         }
 
-        public void OnTimeSet(Materialdatetimepicker.TimePickerDialog view, int hourOfDay, int minute, int second)
+        public void OnTimeSet(MaterialTimePicker.TimePickerDialog view, int hourOfDay, int minute, int second)
         {
             string hourString = hourOfDay < 10 ? "0" + hourOfDay : "" + hourOfDay;
             string minuteString = minute < 10 ? "0" + minute : "" + minute;
