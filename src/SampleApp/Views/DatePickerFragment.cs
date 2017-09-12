@@ -4,7 +4,7 @@ using Android.OS;
 using Android.Views;
 using Android.Widget;
 using Java.Util;
-using MaterialdDatePicker = MaterialDateTimePicker.Date;
+using MaterialdDatePicker = Wdullaer.MaterialDateTimePicker.Date;
 
 namespace SampleApp.Views
 {

@@ -85,8 +85,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Additions\MaterialDateTimePicker\Date\SimpleMonthAdapter.cs" />
-    <Compile Include="Additions\MaterialDateTimePicker\Time\Timepoint.cs" />
+    <Compile Include="Additions\Wdullaer.MaterialDateTimePicker\Date\SimpleMonthAdapter.cs" />
+    <Compile Include="Additions\Wdullaer.MaterialDateTimePicker\Time\Timepoint.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

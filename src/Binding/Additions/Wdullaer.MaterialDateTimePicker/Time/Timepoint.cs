@@ -1,4 +1,4 @@
-﻿namespace MaterialDateTimePicker.Time
+﻿namespace Wdullaer.MaterialDateTimePicker.Time
 {
     public partial class Timepoint
     {
