@@ -15,7 +15,7 @@ Install-Package PH.Wdullaer.Materialdatetimepicker
 __Pre-release version__
 
 
-The latest pre-release binding package can be found on [Nuget](https://www.nuget.org/packages/PH.Wdullaer.Materialdatetimepicker/), based on version `3.3.0`.
+The latest pre-release binding package can be found on [Nuget](https://www.nuget.org/packages/PH.Wdullaer.Materialdatetimepicker/), based on version `3.3.1` and Android Support libraries v26 RC.
 
 ```text
 Install-Package PH.Wdullaer.Materialdatetimepicker -prerelease
