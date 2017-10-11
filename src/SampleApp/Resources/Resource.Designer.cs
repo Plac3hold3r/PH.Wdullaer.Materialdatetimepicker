@@ -1833,11 +1833,11 @@ namespace SampleApp
 			// aapt resource value: 0x7f07000a
 			public const int abc_text_size_title_material_toolbar = 2131165194;
 			
-			// aapt resource value: 0x7f0700ca
-			public const int activity_horizontal_margin = 2131165386;
+			// aapt resource value: 0x7f0700cc
+			public const int activity_horizontal_margin = 2131165388;
 			
-			// aapt resource value: 0x7f0700cb
-			public const int activity_vertical_margin = 2131165387;
+			// aapt resource value: 0x7f0700cd
+			public const int activity_vertical_margin = 2131165389;
 			
 			// aapt resource value: 0x7f07008b
 			public const int compat_button_inset_horizontal_material = 2131165323;
@@ -2046,6 +2046,12 @@ namespace SampleApp
 			// aapt resource value: 0x7f0700c2
 			public const int mdtp_datepicker_year_selection_text_size = 2131165378;
 			
+			// aapt resource value: 0x7f0700c3
+			public const int mdtp_day_highlight_circle_margin = 2131165379;
+			
+			// aapt resource value: 0x7f0700c4
+			public const int mdtp_day_highlight_circle_radius = 2131165380;
+			
 			// aapt resource value: 0x7f0700b1
 			public const int mdtp_day_number_select_circle_radius = 2131165361;
 			
@@ -2055,11 +2061,11 @@ namespace SampleApp
 			// aapt resource value: 0x7f0700a0
 			public const int mdtp_dialog_height = 2131165344;
 			
-			// aapt resource value: 0x7f0700c3
-			public const int mdtp_done_button_height = 2131165379;
+			// aapt resource value: 0x7f0700c5
+			public const int mdtp_done_button_height = 2131165381;
 			
-			// aapt resource value: 0x7f0700c4
-			public const int mdtp_done_label_size = 2131165380;
+			// aapt resource value: 0x7f0700c6
+			public const int mdtp_done_label_size = 2131165382;
 			
 			// aapt resource value: 0x7f0700b3
 			public const int mdtp_extra_time_label_margin = 2131165363;
@@ -2073,17 +2079,17 @@ namespace SampleApp
 			// aapt resource value: 0x7f0700a1
 			public const int mdtp_left_side_width = 2131165345;
 			
-			// aapt resource value: 0x7f0700c5
-			public const int mdtp_material_button_height = 2131165381;
-			
-			// aapt resource value: 0x7f0700c6
-			public const int mdtp_material_button_minwidth = 2131165382;
-			
 			// aapt resource value: 0x7f0700c7
-			public const int mdtp_material_button_textpadding_horizontal = 2131165383;
+			public const int mdtp_material_button_height = 2131165383;
 			
 			// aapt resource value: 0x7f0700c8
-			public const int mdtp_material_button_textsize = 2131165384;
+			public const int mdtp_material_button_minwidth = 2131165384;
+			
+			// aapt resource value: 0x7f0700c9
+			public const int mdtp_material_button_textpadding_horizontal = 2131165385;
+			
+			// aapt resource value: 0x7f0700ca
+			public const int mdtp_material_button_textsize = 2131165386;
 			
 			// aapt resource value: 0x7f0700b4
 			public const int mdtp_minimum_margin_sides = 2131165364;
@@ -2133,8 +2139,8 @@ namespace SampleApp
 			// aapt resource value: 0x7f0700ad
 			public const int mdtp_time_label_right_padding = 2131165357;
 			
-			// aapt resource value: 0x7f0700c9
-			public const int mdtp_time_label_shift = 2131165385;
+			// aapt resource value: 0x7f0700cb
+			public const int mdtp_time_label_shift = 2131165387;
 			
 			// aapt resource value: 0x7f0700ae
 			public const int mdtp_time_label_size = 2131165358;
