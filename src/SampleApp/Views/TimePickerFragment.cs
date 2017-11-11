@@ -78,7 +78,10 @@ namespace SampleApp.Views
         {
             base.OnResume();
             var tpd = (MaterialTimePicker.TimePickerDialog)FragmentManager.FindFragmentByTag("Timepickerdialog");
-            tpd?.SetOnTimeSetListener(this);
+            if (tpd != null)
+            {
+                tpd.OnTimeSetListener = this;
+            }
         }
 
         public void OnTimeSet(MaterialTimePicker.TimePickerDialog view, int hourOfDay, int minute, int second)

@@ -3702,11 +3702,11 @@ namespace SampleApp
 			// aapt resource value: 0x7f090012
 			public const int abc_toolbar_collapse_description = 2131296274;
 			
-			// aapt resource value: 0x7f090063
-			public const int action_settings = 2131296355;
+			// aapt resource value: 0x7f090065
+			public const int action_settings = 2131296357;
 			
-			// aapt resource value: 0x7f09004d
-			public const int app_name = 2131296333;
+			// aapt resource value: 0x7f09004f
+			public const int app_name = 2131296335;
 			
 			// aapt resource value: 0x7f090021
 			public const int appbar_scrolling_view_behavior = 2131296289;
@@ -3717,26 +3717,26 @@ namespace SampleApp
 			// aapt resource value: 0x7f090023
 			public const int character_counter_pattern = 2131296291;
 			
-			// aapt resource value: 0x7f090061
-			public const int disable_dates = 2131296353;
+			// aapt resource value: 0x7f090063
+			public const int disable_dates = 2131296355;
 			
-			// aapt resource value: 0x7f090059
-			public const int dismiss = 2131296345;
-			
-			// aapt resource value: 0x7f09005e
-			public const int enable_minutes = 2131296350;
-			
-			// aapt resource value: 0x7f09005d
-			public const int enable_seconds = 2131296349;
-			
-			// aapt resource value: 0x7f090062
-			public const int highlight_dates = 2131296354;
+			// aapt resource value: 0x7f09005b
+			public const int dismiss = 2131296347;
 			
 			// aapt resource value: 0x7f090060
-			public const int limit_dates = 2131296352;
+			public const int enable_minutes = 2131296352;
 			
 			// aapt resource value: 0x7f09005f
-			public const int limit_times = 2131296351;
+			public const int enable_seconds = 2131296351;
+			
+			// aapt resource value: 0x7f090064
+			public const int highlight_dates = 2131296356;
+			
+			// aapt resource value: 0x7f090062
+			public const int limit_dates = 2131296354;
+			
+			// aapt resource value: 0x7f090061
+			public const int limit_times = 2131296353;
 			
 			// aapt resource value: 0x7f090038
 			public const int mdtp_am = 2131296312;
@@ -3829,31 +3829,37 @@ namespace SampleApp
 			public const int mdtp_text_size_multiplier_inner = 2131296327;
 			
 			// aapt resource value: 0x7f090048
-			public const int mdtp_text_size_multiplier_normal = 2131296328;
+			public const int mdtp_text_size_multiplier_inner_v2 = 2131296328;
 			
 			// aapt resource value: 0x7f090049
-			public const int mdtp_text_size_multiplier_outer = 2131296329;
+			public const int mdtp_text_size_multiplier_normal = 2131296329;
 			
 			// aapt resource value: 0x7f09004a
-			public const int mdtp_time = 2131296330;
+			public const int mdtp_text_size_multiplier_outer = 2131296330;
 			
 			// aapt resource value: 0x7f09004b
-			public const int mdtp_time_placeholder = 2131296331;
+			public const int mdtp_text_size_multiplier_outer_v2 = 2131296331;
 			
 			// aapt resource value: 0x7f09004c
-			public const int mdtp_time_separator = 2131296332;
+			public const int mdtp_time = 2131296332;
+			
+			// aapt resource value: 0x7f09004d
+			public const int mdtp_time_placeholder = 2131296333;
+			
+			// aapt resource value: 0x7f09004e
+			public const int mdtp_time_separator = 2131296334;
 			
 			// aapt resource value: 0x7f090035
 			public const int mdtp_year_picker_description = 2131296309;
 			
-			// aapt resource value: 0x7f090055
-			public const int mode_24_hours = 2131296341;
-			
 			// aapt resource value: 0x7f090057
-			public const int mode_custom_accent = 2131296343;
+			public const int mode_24_hours = 2131296343;
 			
-			// aapt resource value: 0x7f090056
-			public const int mode_dark = 2131296342;
+			// aapt resource value: 0x7f090059
+			public const int mode_custom_accent = 2131296345;
+			
+			// aapt resource value: 0x7f090058
+			public const int mode_dark = 2131296344;
 			
 			// aapt resource value: 0x7f090024
 			public const int password_toggle_content_description = 2131296292;
@@ -3870,53 +3876,53 @@ namespace SampleApp
 			// aapt resource value: 0x7f090028
 			public const int path_password_strike_through = 2131296296;
 			
-			// aapt resource value: 0x7f090053
-			public const int pick_date = 2131296339;
+			// aapt resource value: 0x7f090055
+			public const int pick_date = 2131296341;
+			
+			// aapt resource value: 0x7f090056
+			public const int pick_datetime = 2131296342;
 			
 			// aapt resource value: 0x7f090054
-			public const int pick_datetime = 2131296340;
-			
-			// aapt resource value: 0x7f090052
-			public const int pick_time = 2131296338;
+			public const int pick_time = 2131296340;
 			
 			// aapt resource value: 0x7f090013
 			public const int search_menu_title = 2131296275;
 			
-			// aapt resource value: 0x7f090050
-			public const int selected_date = 2131296336;
+			// aapt resource value: 0x7f090052
+			public const int selected_date = 2131296338;
+			
+			// aapt resource value: 0x7f090053
+			public const int selected_datetime = 2131296339;
 			
 			// aapt resource value: 0x7f090051
-			public const int selected_datetime = 2131296337;
+			public const int selected_time = 2131296337;
 			
-			// aapt resource value: 0x7f09004f
-			public const int selected_time = 2131296335;
+			// aapt resource value: 0x7f09005d
+			public const int show_version_2 = 2131296349;
 			
-			// aapt resource value: 0x7f09005b
-			public const int show_version_2 = 2131296347;
-			
-			// aapt resource value: 0x7f09005c
-			public const int show_year_first = 2131296348;
+			// aapt resource value: 0x7f09005e
+			public const int show_year_first = 2131296350;
 			
 			// aapt resource value: 0x7f090014
 			public const int status_bar_notification_info_overflow = 2131296276;
 			
-			// aapt resource value: 0x7f090065
-			public const int tab_title_date = 2131296357;
+			// aapt resource value: 0x7f090067
+			public const int tab_title_date = 2131296359;
+			
+			// aapt resource value: 0x7f090068
+			public const int tab_title_datetime = 2131296360;
 			
 			// aapt resource value: 0x7f090066
-			public const int tab_title_datetime = 2131296358;
+			public const int tab_title_time = 2131296358;
 			
-			// aapt resource value: 0x7f090064
-			public const int tab_title_time = 2131296356;
+			// aapt resource value: 0x7f09005c
+			public const int title = 2131296348;
+			
+			// aapt resource value: 0x7f090050
+			public const int title_activity_main = 2131296336;
 			
 			// aapt resource value: 0x7f09005a
-			public const int title = 2131296346;
-			
-			// aapt resource value: 0x7f09004e
-			public const int title_activity_main = 2131296334;
-			
-			// aapt resource value: 0x7f090058
-			public const int vibrate = 2131296344;
+			public const int vibrate = 2131296346;
 			
 			static String()
 			{

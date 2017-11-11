@@ -93,7 +93,10 @@ namespace SampleApp.Views
         {
             base.OnResume();
             var dpd = (MaterialdDatePicker.DatePickerDialog)FragmentManager.FindFragmentByTag("Datepickerdialog");
-            dpd?.SetOnDateSetListener(this);
+            if (dpd != null)
+            {
+                dpd.OnDateSetListener = this;
+            }
         }
 
         public void OnDateSet(MaterialdDatePicker.DatePickerDialog view, int year, int monthOfYear, int dayOfMonth)
