@@ -1,37 +1,40 @@
 ﻿<metadata>
-  <remove-node path="/api/package[@name='com.wdullaer.materialdatetimepicker.date']/class[@name='MonthView.MonthViewTouchHelper']" />
+    <remove-node path="/api/package[@name='com.wdullaer.materialdatetimepicker.date']/class[@name='MonthView.MonthViewTouchHelper']" />
 
-  <add-node path="/api/package[@name='com.wdullaer.materialdatetimepicker.date']/class[@name='MonthAdapter.MonthViewHolder']">
-    <method abstract="false"
-            deprecated="not deprecated"
-            final="false"
-            name="bind"
-            native="false"
-            return="void"
-            static="false"
-            synchronized="false"
-            visibility="internal">
-      <parameter name="position"
-                 type="int"/>
-      <parameter name="mController"
-                 type="com.wdullaer.materialdatetimepicker.date.DatePickerController"/>
-      <parameter
-        name="selectedCalendarDay"
-        type="com.wdullaer.materialdatetimepicker.date.MonthAdapter.CalendarDay"/>
-    </method>
-  </add-node> />
+    <add-node path="/api/package[@name='com.wdullaer.materialdatetimepicker.date']/class[@name='MonthAdapter.MonthViewHolder']">
+        <method abstract="false"
+                deprecated="not deprecated"
+                final="false"
+                name="bind"
+                native="false"
+                return="void"
+                static="false"
+                synchronized="false"
+                visibility="internal">
+            <parameter name="position"
+                       type="int"/>
+            <parameter name="mController"
+                       type="com.wdullaer.materialdatetimepicker.date.DatePickerController"/>
+            <parameter
+              name="selectedCalendarDay"
+              type="com.wdullaer.materialdatetimepicker.date.MonthAdapter.CalendarDay"/>
+        </method>
+    </add-node>
 
-  <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.time']/interface[@name='TimePickerController']"
-        name="visibility">public</attr>
-  <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.date']/interface[@name='DatePickerDialog.OnDateChangedListener']"
-        name="managedName">IOnDateChangedListenerSupport</attr>
-  <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.date']/interface[@name='DatePickerDialog.OnDateChangedListener']"
-        name="visibility">public</attr>
-  <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.time']/class[@name='TimePickerDialog.Version']"
-        name="managedName">AppVersion</attr>
+    <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.time']/interface[@name='TimePickerController']"
+          name="visibility">public</attr>
+    <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.date']/interface[@name='DatePickerDialog.OnDateChangedListener']"
+          name="managedName">IOnDateChangedListenerSupport</attr>
+    <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.date']/interface[@name='DatePickerDialog.OnDateChangedListener']"
+          name="visibility">public</attr>
+    <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.time']/class[@name='TimePickerDialog.Version']"
+          name="managedName">AppVersion</attr>
 
-  <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker']" name="managedName">Wdullaer.MaterialDateTimePicker</attr>
-  <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.time']" name="managedName">Wdullaer.MaterialDateTimePicker.Time</attr>
-  <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.date']" name="managedName">Wdullaer.MaterialDateTimePicker.Date</attr>
+    <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.date']/interface[@name='DatePickerController']/method[@name='getScrollOrientation' and count(parameter)=0]" name="propertyName"></attr>
+    <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.date']/interface[@name='DatePickerController']/method[@name='getVersion' and count(parameter)=0]" name="propertyName"></attr>
+
+    <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker']" name="managedName">Wdullaer.MaterialDateTimePicker</attr>
+    <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.time']" name="managedName">Wdullaer.MaterialDateTimePicker.Time</attr>
+    <attr path="/api/package[@name='com.wdullaer.materialdatetimepicker.date']" name="managedName">Wdullaer.MaterialDateTimePicker.Date</attr>
 
 </metadata>
