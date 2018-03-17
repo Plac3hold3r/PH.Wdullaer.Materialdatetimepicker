@@ -23,7 +23,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\src\Binding\bin\Release\MaterialDateTimePicker.dll" target="lib\MonoAndroid80\MaterialDateTimePicker.dll" />
-    <file src="..\src\Binding\bin\Release\MaterialDateTimePicker.pdb" target="lib\MonoAndroid80\MaterialDateTimePicker.pdb" />
+    <file src="..\src\Binding\bin\Release\MaterialDateTimePicker.dll" target="lib\MonoAndroid81\MaterialDateTimePicker.dll" />
+    <file src="..\src\Binding\bin\Release\MaterialDateTimePicker.pdb" target="lib\MonoAndroid81\MaterialDateTimePicker.pdb" />
   </files>
 </package>
