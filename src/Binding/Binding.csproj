@@ -104,16 +104,16 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\materialdatetimepicker-3.6.0.aar" />
+    <LibraryProjectZip Include="Jars\materialdatetimepicker-3.6.1.aar" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="JavaDocs\materialdatetimepicker-3.6.0-javadoc.jar" />
+    <None Include="JavaDocs\materialdatetimepicker-3.6.1-javadoc.jar" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <PropertyGroup>
-    <Java8DocPaths>JavaDocs/materialdatetimepicker-3.6.0-javadoc</Java8DocPaths>
+    <Java8DocPaths>JavaDocs/materialdatetimepicker-3.6.1-javadoc</Java8DocPaths>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
