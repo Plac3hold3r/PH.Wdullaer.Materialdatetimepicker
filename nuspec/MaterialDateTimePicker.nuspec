@@ -2,19 +2,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>PH.Wdullaer.Materialdatetimepicker</id>
-    <version>2.363.0</version>
+    <version>2.364.0</version>
     <title>Wdullaer Material Datetime Picker for Xamarin.Android</title>
     <authors>Plac3hold3r</authors>
     <owners>Plac3hold3r</owners>
     <licenseUrl>https://github.com/Plac3hold3r/PH.Wdullaer.Materialdatetimepicker/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/Plac3hold3r/PH.Wdullaer.Materialdatetimepicker</projectUrl>
+    <repository type="git" url="https://github.com/Plac3hold3r/PH.Wdullaer.Materialdatetimepicker" />
     <iconUrl>https://raw.githubusercontent.com/Plac3hold3r/PH.Wdullaer.Materialdatetimepicker/master/nuspec/nuget_icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A Xamarin Android binding for Wdullaer Material Datetime Picker. Supports Android 4 (API 15) and greater. Includes a material design themable timepicker and datepicker</description>
     <summary>A Xamarin Android binding for Wdullaer Material Datetime Picker.</summary>
     <tags>xamarin, monodroid, C#, xamarin.android, android, material, datepicker, timepicker</tags>
 
-    <releaseNotes>Add support latest version 3.6.3</releaseNotes>
+    <releaseNotes>Add support latest version 3.6.4</releaseNotes>
     
     <dependencies>
       <dependency id="Xamarin.Android.Support.v4" version="27.0.2.1" />
