@@ -6,7 +6,7 @@ A Xamarin Android binding for [Wdullaer Material Datetime Picker](https://github
 
 ## Nuget Package
 
-The latest stable binding package can be found on [Nuget](https://www.nuget.org/packages/PH.Wdullaer.Materialdatetimepicker/), based on version `3.6.2`.
+The latest stable binding package can be found on [Nuget](https://www.nuget.org/packages/PH.Wdullaer.Materialdatetimepicker/), based on version `3.6.3`.
 
 ```text
 Install-Package PH.Wdullaer.Materialdatetimepicker 
