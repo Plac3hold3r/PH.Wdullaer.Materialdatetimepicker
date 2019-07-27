@@ -1,9 +1,9 @@
 ﻿using Android.App;
 using Android.OS;
-using Android.Support.Design.Widget;
-using Android.Support.V4.View;
-using Android.Support.V7.App;
-using Android.Support.V7.Widget;
+using AndroidX.AppCompat.App;
+using AndroidX.AppCompat.Widget;
+using AndroidX.ViewPager.Widget;
+using Google.Android.Material.Tabs;
 using SampleApp.Adapters;
 
 namespace SampleApp.Views
@@ -22,7 +22,7 @@ namespace SampleApp.Views
             SetContentView(Resource.Layout.activity_main);
             SetSupportActionBar(FindViewById<Toolbar>(Resource.Id.toolbar));
 
-            var adapter = new PickerAdapter(FragmentManager);
+            var adapter = new PickerAdapter(SupportFragmentManager);
             var viewPager = FindViewById<ViewPager>(Resource.Id.pager);
             viewPager.Adapter = adapter;
 

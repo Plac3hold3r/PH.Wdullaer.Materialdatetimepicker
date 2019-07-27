@@ -1,5 +1,4 @@
-﻿using Android.App;
-using Android.Support.V13.App;
+﻿using AndroidX.Fragment.App;
 using SampleApp.Views;
 
 namespace SampleApp.Adapters
