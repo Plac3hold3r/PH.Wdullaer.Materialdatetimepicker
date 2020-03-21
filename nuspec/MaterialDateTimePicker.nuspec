@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>PH.Wdullaer.Materialdatetimepicker</id>
-    <version>3.421.0</version>
+    <version>3.423.0</version>
     <title>Wdullaer Material Datetime Picker for Xamarin.Android</title>
     <authors>Plac3hold3r</authors>
     <owners>Plac3hold3r</owners>
@@ -16,7 +16,7 @@
     <tags>xamarin, monodroid, C#, xamarin.android, android, material, datepicker, timepicker</tags>
     <copyright>Copyright ©2020</copyright>
     
-    <releaseNotes>Add support latest version 4.2.1 and Android X packages</releaseNotes>
+    <releaseNotes>Add support latest version 4.2.3 and Android X packages</releaseNotes>
     
     <dependencies>
       <dependency id="Xamarin.AndroidX.AppCompat" version="1.1.0" />
