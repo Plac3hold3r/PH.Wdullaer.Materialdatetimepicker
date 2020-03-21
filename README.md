@@ -1,22 +1,21 @@
 # PH.Wdullaer.Materialdatetimepicker
 
 [![Nuget](https://img.shields.io/nuget/v/PH.Wdullaer.Materialdatetimepicker?style=flat-square)](https://www.nuget.org/packages/PH.Wdullaer.Materialdatetimepicker/)
-[![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/PH.Wdullaer.Materialdatetimepicker?style=flat-square)](https://www.nuget.org/packages/PH.Wdullaer.Materialdatetimepicker/absoluteLatest)
 
 A Xamarin Android binding for [Wdullaer Material Datetime Picker](https://github.com/wdullaer/MaterialDateTimePicker). Supports Android 4.1 (API 16) and greater (Android 4.0 (API 15) was supported until 2.364.0). The library includes a themable material design timepicker and datepicker
 
 ## Nuget Package
 
-The latest stable binding package can be found on [Nuget](https://www.nuget.org/packages/PH.Wdullaer.Materialdatetimepicker/), based on version `3.6.4`.
+The latest stable binding package can be found on [Nuget](https://www.nuget.org/packages/PH.Wdullaer.Materialdatetimepicker/2.364.0), based on version `4.2.1` with AndroidX  support.
 
 ```text
 Install-Package PH.Wdullaer.Materialdatetimepicker 
 ```
 
-The latest preview binding package can be found on [Nuget](https://www.nuget.org/packages/PH.Wdullaer.Materialdatetimepicker/), based on version `4.2.1`.
+Install the latest version v2.x.x builds for Xamarin Android Support library compatibility [Nuget](https://www.nuget.org/packages/PH.Wdullaer.Materialdatetimepicker/), based on version `3.6.4`.
 
 ```text
-Install-Package PH.Wdullaer.Materialdatetimepicker -IncludePrerelease
+Install-Package PH.Wdullaer.Materialdatetimepicker -Version 2.364.0
 ```
 
 ## Usage
