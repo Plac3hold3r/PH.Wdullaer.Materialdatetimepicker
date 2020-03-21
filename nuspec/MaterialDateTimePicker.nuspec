@@ -9,7 +9,7 @@
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/Plac3hold3r/PH.Wdullaer.Materialdatetimepicker</projectUrl>
     <repository type="git" url="https://github.com/Plac3hold3r/PH.Wdullaer.Materialdatetimepicker" />
-    <iconUrl>https://raw.githubusercontent.com/Plac3hold3r/PH.Wdullaer.Materialdatetimepicker/master/nuspec/nuget_icon.png</iconUrl>
+    <icon>images\nuget_icon.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A Xamarin Android binding for Wdullaer Material Datetime Picker. Supports Android 4 (API 16) and greater. Includes a material design themable timepicker and datepicker</description>
     <summary>A Xamarin Android binding for Wdullaer Material Datetime Picker.</summary>
@@ -19,12 +19,18 @@
     <releaseNotes>Add support latest version 4.2.3 and Android X packages</releaseNotes>
     
     <dependencies>
-      <dependency id="Xamarin.AndroidX.AppCompat" version="1.1.0" />
-      <dependency id="Xamarin.AndroidX.RecyclerView" version="1.1.0" />
+      <group targetFramework="MonoAndroid9.0">
+        <dependency id="Xamarin.AndroidX.AppCompat" version="1.1.0" />
+        <dependency id="Xamarin.AndroidX.RecyclerView" version="1.1.0" />
+      </group>
     </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid9.0" />
+    </frameworkAssemblies>
   </metadata>
   <files>
-    <file src="..\src\Binding\bin\Release\MaterialDateTimePicker.dll" target="lib\MonoAndroid81\MaterialDateTimePicker.dll" />
-    <file src="..\src\Binding\bin\Release\MaterialDateTimePicker.pdb" target="lib\MonoAndroid81\MaterialDateTimePicker.pdb" />
+    <file src="nuget_icon.png" target="images\" />
+    <file src="..\src\Binding\bin\Release\MaterialDateTimePicker.dll" target="lib\MonoAndroid90\MaterialDateTimePicker.dll" />
+    <file src="..\src\Binding\bin\Release\MaterialDateTimePicker.pdb" target="lib\MonoAndroid90\MaterialDateTimePicker.pdb" />
   </files>
 </package>
